@@ -1,0 +1,51 @@
+html, body {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 15 px;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.navbar li {
+    margin: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    width: 10%;
+    height: auto;
+}
+
+.banner {
+    background-image: url(./images/banner-front.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    width: 100%;
+    height: auto;
+    padding: 10rem;
+    display: flex;
+}
+
+.banner .banner-text {
+    background-color: wheat;
+    padding: 2em;
+}
+
+.banner-text p {
+    font-style: italic;
+}
+

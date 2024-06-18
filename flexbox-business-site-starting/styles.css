@@ -1,0 +1,129 @@
+html, body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+    border-bottom: solid black;
+}
+
+.navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+.navbar li {
+    padding: 0.2rem 0.6rem;
+    display: inline-flex;
+}
+
+.navbar a {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    color: inherit;
+}
+
+.navbar .logo {
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+#mission {
+    display: flex;
+    background-image: url("./resources/images/assortment-of-fruits.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 25rem;
+    justify-content: center;
+}
+
+#mission .banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(200, 239, 255, 0.89);
+    margin: auto;
+    padding: 2em;
+    
+}
+
+.banner h1 {
+    font-style: italic;
+    font-size: 2.5rem;
+    word-spacing: 0.2rem;
+}
+
+.banner span {
+    letter-spacing: 0.1rem;
+}
+
+.box-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature-box h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.feature-box img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+
+#featured .banner {
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+#featured {
+    padding-top: 50px;
+}
+
+#teams {
+    padding: 150px;
+}
+#teams .banner {
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+.team-box {
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+.team-box img{
+    width: 20rem;
+    height: 20rem;
+}
+
+footer {
+    background-color: rgba(151, 151, 151, 0.589);
+    color:rgb(59, 59, 59);
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 2;
+}

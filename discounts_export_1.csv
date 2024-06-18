@@ -1,0 +1,7 @@
+Name,Value,Value Type,Type,Discount Class,Minimum Purchase Requirements,Combines with Order Discounts,Combines with Product Discounts,Combines with Shipping Discounts,Customer Selection,Times Used In Total,Applies Once Per Customer,Usage Limit Per Code,Status,Start,End
+"Custom Fail Tag 10,000 Discount",-75.0,fixed_amount,Amount Off,product,20,1,1,1,all,0,,,Active,2023-12-28 16:45:15 -0500,
+"Custom Fail Tag 6,000 Discount",-70.0,fixed_amount,Amount Off,product,12,1,1,1,all,0,,,Active,2023-12-28 16:45:15 -0500,
+"Custom Fail Tag 5,000 Discount",-60.0,fixed_amount,Amount Off,product,10,1,1,1,all,0,,,Active,2023-12-28 16:45:15 -0500,
+"Custom Fail Tag 4,000 Discount",-55.0,fixed_amount,Amount Off,product,8,1,1,1,all,0,,,Active,2023-12-28 16:45:15 -0500,
+"Custom Fail Tag 3,000 Discount",-50.0,fixed_amount,Amount Off,product,6,1,1,1,all,0,,,Active,2023-12-28 16:45:15 -0500,
+"Custom Fail Tag 2,000 Discount",-35.0,fixed_amount,Amount Off,product,4,1,1,1,all,0,,,Active,2023-12-28 16:45:15 -0500,
